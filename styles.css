@@ -1,0 +1,49 @@
+/* 添加 CSS */
+#cat {
+    border: 1px solid rgba(179, 179, 179, 0.12);
+    padding: 10px;
+    width: 300px;
+    box-shadow: 10px 10px 12px 1px rgba(204,204,204,0.79);
+    margin: 10px 0px 20px 10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Sans GB";
+    /* -webkit-font-smoothing: antialiased; */
+}
+
+.name {
+    color: rgb(117, 117, 0);
+    margin: 0px 0px 10px 0px;
+}
+
+.photo {
+    width: 300px;
+    margin: 0px 0px 10px 0px;
+}
+
+.detail {
+    margin: 0;
+    width: 280px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 8px;
+}
+
+.tips {
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.tags {
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.tags li span {
+    font-weight: bold;
+}
+
+.description {
+    padding-top: 5px;
+}
